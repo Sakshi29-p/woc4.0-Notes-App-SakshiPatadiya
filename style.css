@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+body{
+    background-color: black;margin: 0;
+}
+.task_note{
+    width: 370px;
+    margin-left: 10%;}
+.first{
+    text-align: center;
+    background-image: linear-gradient(to right, #DE0C61, #E9583A, #FBC503);
+    font-family: 'The Nautigal', cursive;
+    font-style: bold;
+    padding: 15px;
+    font-size: 65px;
+    color: #fff;
+    margin-top: 5px;
+    letter-spacing: 5px;
+}
+
+.second{
+    background-image: linear-gradient(to right, #DE0C61, #E9583A, #FBC503);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.list-icon{
+    float: right;
+}
+.list-icon a{margin-left: 5px;}
+.edit_icon{
+    width: 15px;
+}
+.taskList{background-color: #fff3e2;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    height: 200px;}
+.taskList li{
+    display: block;
+    padding: 2px 0;
+}
+.six{
+    padding: 20px 0;
+}
+.addcard{position: fixed;right: 20px;bottom: 20px;}
+.addcard img{width: 40px;}
+.brdbtn{border: 1px solid #dbd4cc;padding: 5px;background: #fff;border-radius: 3px;}
