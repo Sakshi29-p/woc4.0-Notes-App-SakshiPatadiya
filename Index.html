@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/492173461c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="index.js"></script>
+    <h1 class="first">Notes App</h1>
+    <div class="task_note">
+        <div class="second" id="second">Task List</div>
+        <ul class="taskList">
+            <li>Task 1
+                <span class="list-icon">
+                    <i class="fas fa-edit"></i>
+                    <i class="fas fa-trash" id="trash"></i>
+                </span>
+            </li>
+            <li>Task 2
+                <span class="list-icon">
+                    <i class="fas fa-edit"></i>
+                    <i class="fas fa-trash" id="trash"></i>
+                </span>
+            </li>
+            
+            <form class="six">
+                <button type="button" class="brdbtn">Add Task</button>
+                <button type="button" class="brdbtn">Delete List</button>
+            </form>
+        </ul>
+    </div>
+    <i class="fas fa-plus fa-3x" id="addplus" onmouseover="hand()" onclick="addList()    "></i>
+</body>
+</html>
